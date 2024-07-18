@@ -1,35 +1,9 @@
 title: Linee Guida ATI Project
 description: "Documentazione e linee guida per ATI Project"
-baseurl: "/webjekyll"
+baseurl: "/webjekyll" # Sostituisci con il nome del tuo repository
 url: "https://giacomomarani.github.io"
 
 # Build settings
-theme: minimal-mistakes-jekyll
+theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-archives
-
-# Paginate settings
-paginate: 5
-paginate_path: "/page:num/"
-
-# Archives settings
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: archive
-  permalinks:
-    year: /:year/
-    month: /:year/:month/
-    day: /:year/:month/:day/
-    tag: /tag/:name/
-    category: /category/:name/
-
-# Other settings
-author:
-  name: "Giacomo Marani"
-  email: "your-email@example.com"
