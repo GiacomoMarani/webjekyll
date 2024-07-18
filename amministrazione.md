@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Home
+layout: single
+title: Amministrazione
 ---
 
 <section>

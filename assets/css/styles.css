@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Bw Modelica';
-    src: url('fonts/BwModelica-Bold.woff2') format('woff2'),
-         url('fonts/BwModelica-Bold.woff') format('woff');
+    src: url('{{ "/assets/fonts/BwModelica-Bold.woff2" | relative_url }}') format('woff2'),
+         url('{{ "/assets/fonts/BwModelica-Bold.woff" | relative_url }}') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -89,58 +89,4 @@ footer {
 
 footer p {
     margin: 0.5em 0 0;
-}
-
-/* Chatbot styles */
-#chat-container {
-    border: 1px solid #ccc;
-    padding: 1em;
-    background-color: #222;
-    color: #fff;
-    margin-top: 2em;
-}
-
-#chat-box {
-    max-height: 300px;
-    overflow-y: auto;
-    margin-bottom: 1em;
-}
-
-.chat-message {
-    margin: 0.5em 0;
-    padding: 0.5em;
-    border-radius: 5px;
-}
-
-.user-message {
-    background-color: #333;
-    text-align: right;
-}
-
-.bot-message {
-    background-color: #444;
-    text-align: left;
-}
-
-#chat-form {
-    display: flex;
-    gap: 0.5em;
-}
-
-#user-input {
-    flex-grow: 1;
-    padding: 0.5em;
-}
-
-button {
-    padding: 0.5em;
-    background-color: #555;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #666;
 }
