@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+</head>
+<body>
+    <header>
+        <img src="{{ '/assets/images/ATI - Bianco.png' | relative_url }}" alt="Logo ATI" class="header-logo">
+        <h1>Linee Guida ATI Project</h1>
+        {% include nav.html %}
+    </header>
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        <img src="{{ '/assets/images/ATI - Bianco_Esteso.png' | relative_url }}" alt="Logo Esteso ATI" class="footer-logo">
+        <p>&copy; 2024 ATI Project</p>
+    </footer>
+</body>
+</html>

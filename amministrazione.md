@@ -1,0 +1,9 @@
+---
+layout: default
+title: Home
+---
+
+<section>
+    <h2>Amministrazione</h2>
+    <p>Informazioni su fatture e pagamenti...</p>
+</section>
